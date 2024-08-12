@@ -1,0 +1,5 @@
+num1,den1=map(int,list(input("Enter numerator and denominator of first fraction").split()))
+num2,den2=map(int,list(input("Enter numerator and denominator of first fraction").split()))
+ans=((num1*den2)+(num2*den1))
+ans2=((den1*den2))
+print(ans,"/",ans2)
